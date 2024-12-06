@@ -1,4 +1,4 @@
 export const twoDArray = () =>
-  Array(80)
+  Array(75)
     .fill(null)
-    .map(() => Array(80).fill(false));
+    .map(() => Array(75).fill(false));
