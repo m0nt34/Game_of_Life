@@ -10,8 +10,8 @@ type prop = {
 const Modal = ({ children, open, setOpen, title }: prop) => {
   return (
     <div
-      className={`fixed inset-0 flex justify-center items-center transition-colors ${
-        open ? "visible bg-black/20" : "invisible"
+      className={`fixed inset-0 flex justify-center items-center transition-colors px-[15px] ${
+        open ? "visible bg-black/30" : "invisible"
       }`}
       onClick={() => setOpen(false)}
     >
@@ -24,7 +24,7 @@ const Modal = ({ children, open, setOpen, title }: prop) => {
         <div className="flex justify-between items-center w-full">
           <h1 className="text-[22px] font-semibold">{title}</h1>
           <button onClick={() => setOpen(false)}>
-            <X className="h-7 w-7 sm850:h-5 sm850:w-5 sm450:w-[15px] sm450:h-[15px]" />
+            <X className="h-7 w-7" />
           </button>
         </div>
         {children}
