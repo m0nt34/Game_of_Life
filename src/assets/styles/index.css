@@ -5,3 +5,9 @@
 body {
   background-color: #111727;
 }
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #1f2942 transparent;
+  padding-right: 4px;
+}
