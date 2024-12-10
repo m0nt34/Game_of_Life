@@ -9,7 +9,6 @@ This is a fun, interactive version of Conway's Game of Life — but with a twist
 ⏩ Speed Control: Adjust the simulation speed in real-time.
 ♻️ Reset & Play Controls: Pause, play, and reset the board anytime.
 📱 Mobile-Friendly: Works on desktop, tablets, and mobile phones.
-🚀 How to Run
 
 🛠️ Tech Stack
 TypeScript for type-safe logic
