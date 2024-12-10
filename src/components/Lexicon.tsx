@@ -24,10 +24,10 @@ const Lexicon = () => {
           className="flex items-center gap-[10px] bg-[#334370] p-2 rounded-lg cursor-pointer hover:bg-[#374a7e] transition-colors"
           onClick={() => setNewBoardPattern(pattern.patterns)}
         >
-          <img src={pattern.img} alt="" className="h-16 w-16" />
+          <img src={pattern.img} alt="" className="h-16 w-16 rounded-md" />
           <div className="flex flex-col">
-            <h1 className="font-semibold">{pattern.name}</h1>
-            <p className="text-xs">{pattern.description}</p>
+            <h1 className="font-semibold sm400:text-sm">{pattern.name}</h1>
+            <p className="text-xs sm400:text-[10px]">{pattern.description}</p>
           </div>
         </div>
       ))}

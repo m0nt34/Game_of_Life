@@ -16,7 +16,7 @@ const Modal = ({ children, open, setOpen, title }: prop) => {
       onClick={() => setOpen(false)}
     >
       <div
-        className={`bg-[#2b385c] shadow p-6 transition-all max-w-[400px] w-full rounded-lg ${
+        className={`bg-[#2b385c] shadow p-6 sm400:p-4 transition-all max-w-[400px] w-full rounded-lg ${
           open ? "scale-100 opacity-100" : "scale-125 opacity-0"
         }`}
         onClick={(e) => e.stopPropagation()}
