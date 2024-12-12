@@ -16,3 +16,6 @@ Tailwind CSS for modern, responsive styles
 Mobile-Responsive Design for smooth interaction on any device
 
 
+🚀 Live Demo
+👉 https://game-of-life-custom.netlify.app
+
